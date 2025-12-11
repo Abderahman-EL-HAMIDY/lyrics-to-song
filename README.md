@@ -8,7 +8,7 @@ instrumentals + vocals (the lyrics sung by a voice).
 
 Based on this idea, we designed an architecture composed of three models:
 
-![Model Architecture]('System%Architecture.png')
+![Model Architecture]('System%20Architecture.png')
 
 - Melody Composer: We fine-tuned LLaMA 3-8B to generate melodies in ABC notation.
 The ABC sequence is then converted into audio, and this melody is used as a conditioning signal for the other models.
