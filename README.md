@@ -5,6 +5,7 @@ This project presents an approach to building a generative AI system that create
 ## How to Run the Demo
 
 ** IMPORTANT HARDWARE **
+
 This pipeline uses two large generative models.
 * **GPU is required:** Running this on a CPU is **extremely slow** (it may take hours to generate seconds of audio).
 * **VRAM:** A GPU with at least 12GB of VRAM is recommended.
@@ -12,9 +13,9 @@ This pipeline uses two large generative models.
 ### Option 1: The Easy Way (Recommended - Kaggle)
 The most efficient way to run this without configuring a local environment is to use Kaggle's free GPU notebooks.
 
-1.  **Create a Kaggle Notebook:** Go to [Kaggle](https://www.kaggle.com/) and upload the notebook app-demo.ipynb and click edit and run all.
+1.  **Create a Kaggle Notebook:** Go to [Kaggle](https://www.kaggle.com/) and upload the notebook app-demo.ipynb and click edit.
 2.  **Select Accelerator:** In the notebook settings (sidebar), set **Accelerator** to `GPU T4 x2` (or better).
-4.  **Run the Code:** Copy the full project code below into a cell and execute it.
+4.  **Run the Code:**  Run all.
 5.  **Launch:** Click the public Gradio link generated at the bottom of the output (e.g., `Running on public URL: https://...`).
 
 ### Option 2: Local Installation
